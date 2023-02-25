@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Bootstrap5.0/css/bootstrap.min.css">
+    <script src="Bootstrap5.0/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/9525e0b59f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bits & Bytes</title>
+</head>
+<body>
+   
+<div class="container">
+  <nav class="navbar navbar-expand-lg navbar-dark p-3 fixed-top" id="navbar">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><i class="fa fa-code-branch"></i> Bits & Bytes</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+   
+      <div class=" collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item">
+            <a class="nav-link mx-2 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-2" href="#">LMS</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link mx-2 dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Courses
+            </a>
+            <ul class="dropdown-menu navbar_dropdown" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Web Development</a></li>
+              <li><a class="dropdown-item" href="#">Mobile App Development</a></li>
+              <li><a class="dropdown-item" href="#">Desktop Application Development</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="navbar-nav ms-auto d-none d-lg-inline-flex">
+          <li class="nav-item mx-2">
+            <a class="nav-link text-light h5" href="" target="blank"><i class="fab fa-facebook-square"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-light h5" href="" target="blank"><i class="fab fa-twitter-square"></i></a>
+          </li>
+          <li class="nav-item mx-2">
+            <a class="nav-link text-light h5" href="" target="blank"><i class="fab fa-github-square"></i></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+
+function myFunction() {
+  if (window.pageYOffset >= 30) {
+    navbar.classList.add("bg-dark")
+  } else {
+    navbar.classList.remove("bg-dark");
+  }
+}
+</script>
+
+
+
+<div class="container-fluid px-0 bgImg home-banner-area">
+  <div class="container">
+    <div class="row align-items-center" style='height:662px'>
+      <div class="col-md-5 home-banner-left">
+        <h1 style="font-size: 50px; font-weight: 700;">Take first step to learning with us</h1>
+        <p style="font-size: 15px;">In the history of modern astronomy, there is probably no one greater leap forward than the building and launch of the space telescope known as the Hubble.</p>
+      </div>
+
+      <div class="col-md-2"></div>
+
+      <div class="col-md-5 home-banner-right">
+        <img src="img/header-img.png" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="feature-area">
+  <div class="container-fluid">
+    <div class="feature-inner row">
+      <div class="col-lg-2 col-md-6">
+        <div class="feature-item d-flex">
+          <i class="fa fa-book"></i>
+          <div class="ml-20">
+            <h4 class="fw-bold">Comprehensive curriculum</h4>
+            <p class="text-secondary">
+              Our expert teachers make Comprehensive syllabus for the students that makes easy learning for the students.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <div class="feature-item d-flex">
+          <i class="fa-solid fa-chalkboard-user"></i>
+          <div class="ml-20">
+            <h4 class="fw-bold">Experienced Instructors</h4>
+            <p class="text-secondary">
+              We hire experienced & professional instructors who deliver more knowledge to the students.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-2 col-md-6">
+        <div class="feature-item d-flex border-right-0">
+          <i class="fa-solid fa-walkie-talkie"></i>
+          <div class="ml-20">
+            <h4 class="fw-bold">Community Support</h4>
+            <p class="text-secondary">
+              Community support for students is provided by teachers, staff and all the seniors who have passed course.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<section class="popular-course-area section-gap">
+  <div class="container-fluid">
+    <div class="row justify-content-center section-title">
+      <div class="col-lg-12">
+        <h2>
+          Popular Courses <br>
+          Available Right Now
+        </h2>
+        <p class="text-secondary pb-5">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.
+        </p>
+        
+
+
+        <div id="carouselExampleCaptions" class="carousel slide position-relative" data-bs-ride="carousel" data-bs-touch="true" data-bs-interval="false">
+          <div class="position-absolute carosoulControls">
+            <button class="pe-4" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <i class="fa fa-angle-left"></i>
+            </button>
+            <button data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <i class="fa fa-angle-right"></i>
+            </button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card coursesCard">
+                    <div class="overflow-hidden cardImgWrapper">
+                      <img src="img/html-slider.jpg" alt="" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-header">
+                      <span class="text-secondary fw-bold h6">Web Development</span>
+                      <span class="float-end">5000/- PKR</span>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Learn HTML5 for front-end web development</h4>
+                      <p class="card-text text-muted">This course will cover all the basics of HTML5. At the end of course you will be able to make a basic website using html.</p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="starWrapper">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="float-end text-secondary">(25 reviews)</span>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card coursesCard">
+                    <div class="overflow-hidden cardImgWrapper">
+                      <img src="img/css-slider.webp" alt="" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-header">
+                      <span class="text-secondary fw-bold h6">Web Development</span>
+                      <span class="float-end">3000/- PKR</span>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Learn CSS3 for front-end web development</h4>
+                      <p class="card-text text-muted">Cascading style sheet covered in this course. From basics to advance all the CSS will be covered.</p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="starWrapper">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="float-end text-secondary">(25 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card coursesCard">
+                    <div class="overflow-hidden cardImgWrapper">
+                      <img src="img/js-slider.png" alt="" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-header">
+                      <span class="text-secondary fw-bold h6">Web Development</span>
+                      <span class="float-end">5000/- PKR</span>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Learn JavaScript for front-end web development</h4>
+                      <p class="card-text text-muted">An interesting and advance syllabus of JavaScript will be covered in this course. You'll be able to add functionalities to websites.</p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="starWrapper">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="float-end text-secondary">(25 reviews)</span>
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card coursesCard">
+                    <div class="overflow-hidden cardImgWrapper">
+                      <img src="img/react-slider.jpg" alt="" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-header">
+                      <span class="text-secondary fw-bold h6">Web Development</span>
+                      <span class="float-end">10000/- PKR</span>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Learn ReactJS for front-end web development</h4>
+                      <p class="card-text text-muted">ReactJS is an advance language for web development that we will cover in this course.</p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="starWrapper">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="float-end text-secondary">(25 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card coursesCard">
+                    <div class="overflow-hidden cardImgWrapper">
+                      <img src="img/csharp-slider.png" alt="" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-header">
+                      <span class="text-secondary fw-bold h6">Application Development</span>
+                      <span class="float-end">9000/- PKR</span>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Learn C# for mobile/desktop application development</h4>
+                      <p class="card-text text-muted">C# is often used to build desktop applications, games, mobile apps, web services, and more. It is known for its robust type system, garbage collection, and efficient memory management, making it a popular choice for high-performance applications.</p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="starWrapper">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="float-end text-secondary">(25 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card coursesCard">
+                    <div class="overflow-hidden cardImgWrapper">
+                      <img src="img/git-slider.jpeg" alt="" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-header">
+                      <span class="text-secondary fw-bold h6">Tools</span>
+                      <span class="float-end">4000/- PKR</span>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Learn GitHub for more productivity</h4>
+                      <p class="card-text text-muted">GitHub is a popular web-based platform used for version control and collaboration in software development. The platform allows developers to store and manage their code repositories, track changes and history, and collaborate with other developers on the same code base.</p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="starWrapper">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="float-end text-secondary">(25 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+            <div class="carousel-item">
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="card coursesCard">
+                    <div class="overflow-hidden cardImgWrapper">
+                      <img src="img/cplus-slider.png" alt="" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-header">
+                      <span class="text-secondary fw-bold h6">Application Development</span>
+                      <span class="float-end">9000/- PKR</span>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Learn C++ for hybrid applications development</h4>
+                      <p class="card-text text-muted">A C++ course is a comprehensive learning program that covers the fundamentals of the C++ programming language. C++ is a general-purpose, object-oriented programming language that is widely used in a variety of industries, including software development, video game development, and engineering.</p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="starWrapper">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="float-end text-secondary">(25 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card coursesCard">
+                    <div class="overflow-hidden cardImgWrapper">
+                      <img src="img/react-native-slider.webp" alt="" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-header">
+                      <span class="text-secondary fw-bold h6">Mobile App Development</span>
+                      <span class="float-end">15000/- PKR</span>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Learn ReactNative for hybrid app development</h4>
+                      <p class="card-text text-muted">React Native is a popular open-source framework that is used for building mobile applications for iOS and Android platforms. It allows developers to build high-quality, performant mobile applications using JavaScript and React, which is a popular JavaScript library for building user interfaces.</p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="starWrapper">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="float-end text-secondary">(25 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-md-4">
+                  <div class="card coursesCard">
+                    <div class="overflow-hidden cardImgWrapper">
+                      <img src="img/social-media-slider.png" alt="" class="card-img-top img-fluid">
+                    </div>
+                    <div class="card-header">
+                      <span class="text-secondary fw-bold h6">Business Marketing</span>
+                      <span class="float-end">10000/- PKR</span>
+                    </div>
+                    <div class="card-body">
+                      <h4 class="card-title">Learn Social Media Marketing</h4>
+                      <p class="card-text text-muted">Social media marketing is the process of using social media platforms, such as Facebook, Twitter, Instagram, LinkedIn, and others, to promote a product, service, or brand. Social media marketing involves creating and sharing content, engaging with followers, and running advertising campaigns on social media.</p>
+                    </div>
+                    <div class="card-footer">
+                      <div class="starWrapper">
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="fa fa-star"></span>
+                        <span class="float-end text-secondary">(25 reviews)</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+<div class="video-area">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="section-title text-white" style="padding-top: 6rem;">
+          <div>
+            <h2 class="text-white fw-bold">
+              Watch Our Trainers <br>
+              in Live Action
+            </h2>
+            <p>
+              In the history of modern astronomy, there is probably no one greater leap forward than the building and
+              launch of the space telescope known as the Hubble.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <iframe class="shadow" width="100%" height="315" src="https://www.youtube.com/embed/nViwVQ-HFqE?start=23&autoplay=1&mute=1&controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<h1 class="my-5">j</h1>
+
+
+</body>
+</html>

@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600;700&display=swap');
+
+html{
+    scroll-behavior: smooth;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f1f1f1;
+}
+.navbar{
+    background-color: #f1f1f1;
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+}
+.navLogo{
+    width:50px
+}
+.navText{
+    font-size: 25px;
+}
+.nav-item{
+    font-size: 19px !important;
+    margin: 0% 10px !important;
+}
+.btnWrapper{
+    background-color:#1aa3da;
+    border: #1aa3da 1px solid !important;
+    transition: all .5s;
+    color: white;
+    padding: 5px 20px;
+}
+.btnWrapper:hover{
+    color: #1aa3da !important;
+    background-color: transparent;
+    border: #1aa3da 1px solid !important;
+}
+
+
+/* Header */
+.headerLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.headerLeft h1{
+    font-size: 50px;
+}
+.headerLeft span{
+    color: #1aa3da;
+    font-size: 60px;
+}
+.headerLeft p{
+    color: rgb(133, 133, 133);
+    margin: 10px 0px !important;
+}
+.headerLeft a{
+    padding: auto 20px !important;
+    margin-top: 20px;
+}
+.headerLeft button:last-child{
+    background-color: transparent;
+    color: #1aa3da;
+}
+.headerLeft button:last-child:hover{
+    background-color: #1aa3da;
+    color: white !important;
+}
+.remMargin{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imgContainer{
+    height: 400px;
+    width: 400px;
+    padding: 40px;
+    border-radius: 50%;
+    position: relative;
+    background-color:#1aa3da;
+}
+.imgContainerInner{
+    border-radius: 50%;
+    border: 0.01px dashed #3f3d56;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    top: -15px;
+    left: 32px;
+    z-index: 0;
+}
+.imgContainer img{
+    width: 500px;
+    position: relative;
+    top: 14%;
+    left: -30%;
+}
+.headerRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+
+.cards-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+.cardT {
+    text-align: center;
+    border-radius: 20px;
+    width: 32%;
+    padding: 40px;
+    background-color: #fff;
+    box-shadow: 0 0 15px 0 #0000000a;
+    cursor: pointer;
+    transition: all 0.7s;
+}
+.cardT p {
+    color: #696969;
+    margin: 10px 0;
+    text-align: center;
+}
+.cardT .icon-box {
+    background-color: #d5eefa;
+    border-radius: 50%;
+    height: 85px;
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 20px;
+}
+.cardT .icon-box svg {
+    color: #1aa3da;
+}
+.card-box {
+    padding: 100px;
+}
+.cardT:hover {
+    background-color: #1aa3da;
+    box-shadow: 0 0 20px 0 #1aa3da94;
+    transform: scale(1.05);
+}
+
+.cardT:hover h3,
+.cardT:hover p {
+    color: #fff;
+}
+.cardT:hover  .icon-box {
+    background-color: #fff;
+}
+
+
+
+.grayClr{
+    color: rgb(100, 100, 100) !important;
+}
+.bggrayClr{
+    background-color: rgba(226, 226, 226, 0.493);
+}
+
+.card_border{
+    border-radius: 30px;
+    border-top-left-radius: 3px;
+  }
+  .faicon{
+    padding: 20px;
+    font-size: 30px;
+    border-radius: 50px;
+    border-top-left-radius: 3px;
+    font-size: 40px !important;
+
+  }
+
+  .border-start{
+    border-left: 5px solid #212529 !important;
+    padding-left: 5px;
+  }
+
+
+
+.footer ul{
+    margin: 0 !important;
+    list-style: none !important;
+    padding: 0% !important;
+}
+.heading_txt{
+    font-size: 30px !important;
+    font-weight: 300;
+}
+.social_icons li{
+    display: inline;
+    font-size: 15px;
+    padding: 0px 3px;
+}
+.social_icons{
+    margin-top: 25px !important;
+}
+.social_icons a{
+    text-decoration: none;
+    color: #4d5153;
+    background-color: white;
+    padding: 10px 13px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.541);
+}
+.list1 li, .list2 li{
+    padding: 8px 0px !important;
+}
+.list1 i{
+    font-size: 13px;
+    padding-right: 5px;
+}
+.list1 li:not(:last-child){
+    border-bottom: 1px #777c80 solid;
+}
+.list1 a{
+    text-decoration: none;
+    color: #c3cad1;
+    font-size: 15px;
+}
+.contactForm{
+    transition: all .5s;
+    cursor: pointer;
+}
+.contactForm:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px 0px #4d455d !important;
+}
+.footer h2{
+    margin-bottom: 2rem !important;
+}
+.aboutend{
+    height: 200px;
+    width: 100%;
+    background-image: url(img/aboutus.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.aboutendInner{
+    background-color: #212832cf; 
+    height: 200px; 
+    width: 100%; 
+    color: white; 
+    text-align: center; 
+    padding: 4rem ;
+}
+.social_nav{
+    text-align: center;
+}
+.social_nav ul{
+    margin: 0%;
+    padding: 0%;
+}
+.social_nav li{
+    display: inline-block;
+}
+.social_nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 0 10px;
+}
+.social_nav ul li a:hover{
+    color: gray;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-around;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.contact ul{
+    list-style: none;
+}
+.contact ul li{
+    margin: 10px 0px;
+}
+
+
+
+
+
+
+@media screen and (max-width: 767px) {
+    .cards-wrapper {
+        flex-direction: column;
+    }
+    .cardT {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .headerRight{
+        display: none !important;
+    }
+    .card-box{
+        padding:70px 30px !important;
+
+    }
+    .headerLeft h1{
+        font-size: 30px;
+    }
+    .headerLeft span{
+        font-size: 40px;
+    }
+    .card_border{
+        margin: 10px 0px !important;
+    }
+    .img_section img{
+        display: none;
+    }
+    .div_left h2{
+        font-size: 35px !important;
+    }
+    .div_left font{
+        font-size: 40px;
+    }
+    .nav-item{
+        font-size: 12px !important;
+    }
+    .tab-content>.active {
+        padding: 1rem !important;
+    }
+    .contactForm{
+        width: 100% !important;
+        padding:30px 20px !important;
+    }
+    .footer h2{
+        display: none;
+    }
+    .contactForm:hover{
+        transform: scale(1);
+    }
+    .aboutendInner{
+        padding: 43px 25px;
+    }
+    .coursesList{
+        padding-left: 2rem !important;
+    }
+}

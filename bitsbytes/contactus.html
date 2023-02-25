@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="Bootstrap5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9525e0b59f.js" crossorigin="anonymous"></script>
+    <title>Contact | Bits&Bytes</title>
+</head>
+
+<body>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="loginmodel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Enter your credentials</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bggrayClr">
+        <form action="">
+          <div class="formWrapper">
+            <input type="email" name="email" id="" class="form-control mb-3" required placeholder="example@xyz.com">
+            <input type="password" name="" id="" class="form-control" required placeholder="Password">
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary rounded-pill px-4" style="background-color: #1aa3da; border: #1aa3da;">Login</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="coursesmodel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Apply for courses</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bggrayClr">
+        <form action="">
+          <div class="formWrapper">
+            <input type="text" id="" class="form-control mb-2" required placeholder="Enter your name">
+            <input type="email" name="" id="" class="form-control mb-2" required placeholder="Enter your email">
+            <select name="" id="" class="form-control mb-2" required>
+              <option value="">Choose course</option>
+              <option value="">HTML5</option>
+              <option value="">CSS3</option>
+              <option value="">JavaScript</option>
+              <option value="">C</option>
+              <option value="">C++</option>
+              <option value="">C#</option>
+              <option value="">GitHub</option>
+            </select>
+            <input type="password" name="" placeholder="Choose your password" required class="form-control" id="">
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary rounded-pill px-4" style="background-color: #1aa3da; border: #1aa3da;">Enroll</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+<!-- Navigation Bar Start -->
+<div class="container-fluid px-0">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><img src="img/logo.png" class="navLogo" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.html#startExploring">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+            <div class="btn-group">
+                <button class="btn btn-outline-primary rounded-pill btnWrapper" data-bs-toggle="modal" data-bs-target="#loginmodel">Login</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+</div>
+<!-- Navigation Bar Ended -->
+
+
+
+<!-- Form section started -->
+<div class="container d-flex justify-content-around remMargin">
+    <div style=" border-radius: 10px; background-color:#2c125fd1;" class="p-5 w-50 text-center shadow contactForm">
+        <h2 class="mb-5 text-white">Leave a message for us!</h2>
+        <form action="">
+            <input type="text" class="form-control mb-2" placeholder="Enter your name" required>
+            <input type="text" class="form-control mb-2" placeholder="Enter your gmail" required>
+            <textarea name="" class="form-control" id="" cols="30" rows="3" placeholder="Enter your message" required></textarea>
+            <button class="btn rounded-pill px-4 mt-4" style="background-color:#1aa3da; color: white;">Submit</button>
+        </form>
+    </div>
+</div>
+<!-- form section ended -->
+
+<div class="container py-5">
+  <div class="row">
+    <div class="col-md-6 contact">
+      <div class="contact">
+        <ul class="">
+        <li><a href="mailto:y451rmahar@gmail.com"><i class="fa-solid fa-envelope me-4"></i> y451rmahar@gmail.com</a></li>
+        <li><a href="tel:923021714149"><i class="fa-solid fa-phone me-4"></i> +923 021 71414 9</a></li>
+        <li><a href="https://yasirresume.000webhostapp.com/" target="_blank"><i class="fa-solid fa-globe me-4"> </i>Yasir's Resume</a></li>
+      </ul>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <iframe class="shadow" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3472.447509584437!2d71.63599881411476!3d29.503312482082386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x393b99bcc27fb4a5%3A0x6a72e1d07a4c6a9c!2sBahuddin%20Zikria%20University%20Sub%20Campus%20Lodhran!5e0!3m2!1sen!2s!4v1676823318680!5m2!1sen!2s" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  
+    </div>
+  </div>
+</div>
+
+<div class="container my-5">
+  <h1 class="text-center mb-2"></h1>
+</div>
+
+<!-- Footer Started -->
+<div class='container-fluid text-light py-5 footer' style='background-color:#212832'>
+    <div class='container'>
+    <div class='row'>
+        <div class='col-md-6 ps-5'>
+            <img 
+            class='mb-4' 
+            style="width: 100px;"
+            height="100px"
+            src="img/logo.png"
+            />
+            <h2 class='heading_txt'>Take  student experience <br/>to the next level </h2>
+        </div>
+
+
+        <div class='col-md-3 px-5'>
+            <h3 >Quick Links</h3>
+                <ul class='list1'>
+                <li><a href='index.html'><i class='fa fa-angle-right'></i> Home</a></li>
+                <li><a href='aboutus.html'><i class='fa fa-angle-right'></i> About Us</a></li>
+                <li><a href='index.html/#startExploring'><i class='fa fa-angle-right'></i> Courses</a></li>
+                <li><a href='contactus.html'><i class='fa fa-angle-right'></i> Contact Us</a></li>
+                </ul>
+        </div>
+
+
+        <div class='col-md-3 px-5'>
+                <h3>Courses</h3>
+                <ul class='list1'>
+                  <li><a href='index.html#startExploring'><i class='fa fa-angle-right'></i> Web Development</a></li>
+                  <li><a href='index.html#startExploring'><i class='fa fa-angle-right'></i> C Language</a></li>
+                  <li><a href='index.html#startExploring'><i class='fa fa-angle-right'></i> Others</a></li>
+              </ul>
+
+        </div>
+</div>
+    </div>
+</div>
+<!-- Footer Ended -->
+<div class="container-fluid bg-dark py-3">
+  <div class="text-center text-white">
+    <p class="h6">Developed By <a href="https://yasirresume.000webhostapp.com/" target="_blank">Yasir Nawaz</a></p>
+    <div class="social_nav">
+      <ul>
+        <li><a href="https://www.facebook.com/profile.php?id=100078564789139&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-square" target="_blank"></i></a></li>
+        <li><a href="https://twitter.com/YasirsThoughts" target="_blank"><i class="fa-brands fa-twitter-square" ></i></a></li>
+        <li><a href="https://instagram.com/yasirnawazzz" target="_blank"><i class="fa-brands fa-instagram-square" ></i></a></li>
+        <li><a href="https://github.com/yasir2002" target="_blank"><i class="fa-brands fa-github-square" ></i></a></li>
+        <li><a href="https://www.linkedin.com/in/yasirnawaz24/" target="_blank" ><i class="fa-brands fa-linkedin-square"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/63f7298831ebfa0fe7eedb81/1gpunkg71';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+
+</body>
+</html>

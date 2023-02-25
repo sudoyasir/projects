@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Georama:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+    font-family: 'Georama', sans-serif;
+
+}
+
+
+
+.bgImg{
+    background-image: url('../img/home-banner-bg.png');
+    max-height: 1200px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+.feature-item{
+    margin: 30px 0px;
+    border-right: 1px solid rgba(130, 139, 178, 0.2);
+    padding-right: 20px;
+}
+.feature-item i{
+    font-size: 30px;
+    color: #7d32ff;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.feature-area .container-fluid {
+    padding-left: 50px;
+}
+.feature-item h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.feature-item p {
+    margin-bottom: 0px;
+}
+.feature-area {
+    margin-top: -110px;
+}
+
+.section-gap {
+    padding: 120px 0;
+}
+.popular-course-area .container-fluid {
+    max-width: 1140px;
+    padding-left: 15px;
+}
+.section-title h2 {
+    font-size: 42px;
+    color: #222;
+    margin-bottom: 20px;
+}
+.section-title p {
+    margin-bottom: 0;
+    max-width: 620px;
+}
+
+.carosoulControls{
+    top: -95px; 
+    right:0% ;
+}
+.carosoulControls i{
+    font-size: 20px;
+    background-color: #7d32ff;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: #7d32ff 0px 0 4px 0px;
+}
+.carosoulControls button{
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.starWrapper span{
+    color: orange;
+}
+.coursesCard img{
+    transition: transform 0.3s ease;
+    height: 175px;
+    width: 100%;
+    object-fit: cover;
+}
+.coursesCard{
+    overflow: hidden;
+    cursor: pointer;
+    border: 0;
+    background-color: #f9f9fb;
+
+}
+.cardImgWrapper{
+    width: 100%;
+    height: 175px;
+}
+.coursesCard:hover img{
+    transform: scale(1.07) !important;
+}
+.coursesCard h4{
+    transition: all 0.5s;
+}
+.coursesCard:hover h4{
+    color: #7d32ff;
+}
+.card-header, .card-footer{
+    border: 0;
+    background-color: transparent;
+}
+.card-body{
+    padding: 0rem 1rem;
+}
+.coursesCard p {
+    height: 75px;
+    overflow: hidden;
+}
+.video-area{
+    background-image: url('../img/video-area-bg.png');
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+    .home-banner-area .fullscreen {
+        height: 700px !important;
+    }
+    .home-banner-left {
+        text-align: center;
+    }
+    .bgImg{
+        padding-top: 10rem;
+    }
+    .home-banner-right img{
+        display: none;
+    }
+    .feature-item{
+        border-right: 0;
+    }
+    .carosoulControls{
+        display: none !important;
+    }
+    .coursesCard{
+        margin-bottom: 20px;
+    }
+    .coursesCard .cardImgWrapper{
+        display: none !important;
+    }
+}
+
+
+
+@media all and (min-width: 992px) {
+	.navbar .nav-item .dropdown-menu{ display: none; }
+	.navbar .nav-item:hover .dropdown-menu{ display: block; }
+	.navbar .nav-item .dropdown-menu{ margin-top:0; }
+}

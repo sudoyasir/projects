@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/logo.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="Bootstrap5.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/9525e0b59f.js" crossorigin="anonymous"></script>
+    <title>Home | Bits&Bytes</title>
+</head>
+
+
+
+<body>
+
+
+  <!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="loginmodel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Enter your credentials</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bggrayClr">
+        <form action="">
+          <div class="formWrapper">
+            <input type="email" name="email" id="" class="form-control mb-3" required placeholder="example@xyz.com">
+            <input type="password" name="" id="" class="form-control" required placeholder="Password">
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary rounded-pill px-4" style="background-color: #1aa3da; border: #1aa3da;">Login</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="coursesmodel" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Apply for courses</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body bggrayClr">
+        <form action="">
+          <div class="formWrapper">
+            <input type="text" id="" class="form-control mb-2" required placeholder="Enter your name">
+            <input type="email" name="" id="" class="form-control mb-2" required placeholder="Enter your email">
+            <select name="" id="" class="form-control mb-2" required>
+              <option value="">Choose course</option>
+              <option value="">HTML5</option>
+              <option value="">CSS3</option>
+              <option value="">JavaScript</option>
+              <option value="">C</option>
+              <option value="">C++</option>
+              <option value="">C#</option>
+              <option value="">GitHub</option>
+            </select>
+            <input type="password" name="" placeholder="Choose your password" required class="form-control" id="">
+          </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary rounded-pill px-4" data-bs-dismiss="modal">Close</button>
+        <button type="submit" class="btn btn-primary rounded-pill px-4" style="background-color: #1aa3da; border: #1aa3da;">Enroll</button>
+      </div>
+    </form>
+    </div>
+  </div>
+</div>
+
+<!-- Navigation Bar Start -->
+<div class="container-fluid" >
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#"><img src="img/logo.png" class="navLogo" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="aboutus.html">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#startExploring">Courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+            <div class="btn-group">
+                <button class="btn btn-outline-primary rounded-pill btnWrapper" data-bs-toggle="modal" data-bs-target="#loginmodel">Login</button>
+            </div>
+          </div>
+        </div>
+      </nav>
+</div>
+<!-- Navigation Bar Ended -->
+
+
+<!-- Hero Section Started -->
+<div class="container remMargin">
+    <div class="row">
+        <div class="col-md-6 headerLeft">
+            <div>
+                <h1 class="fw-bolder">Unleash your <span>Coding</span> potential with <span>Bits&Bytes</span></h1>
+            <p>Our academy offers a comprehensive curriculum designed to help you learn programming languages and develop essential coding skills. With our expert instructors you can take your coding skills to the next level.</p>
+            <div class="btn-group">
+                <a class="btn btnWrapper rounded-pill me-3" data-bs-toggle="modal" data-bs-target="#coursesmodel">Book Course</a>
+                <a class="btn btnWrapper rounded-pill" href="#startExploring" >Start Exploring</a>
+            </div>
+            </div>
+        </div>
+
+        <div class="col-md-6 headerRight">
+            <div class="imgContainer">
+                <div class="imgContainerInner"></div>
+                <img src="img/header.svg" alt="">
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hero Section Ended -->
+
+
+<!-- key points section  started-->
+<div class="card-box py-5">
+    <div class="container">
+        <div class="cards-wrapper">
+            
+            <div class="cardT card-1">
+                <div class="icon-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-calendar-date" viewBox="0 0 16 16">
+                        <path d="M6.445 11.688V6.354h-.633A12.6 12.6 0 0 0 4.5 7.16v.695c.375-.257.969-.62 1.258-.777h.012v4.61h.675zm1.188-1.305c.047.64.594 1.406 1.703 1.406 1.258 0 2-1.066 2-2.871 0-1.934-.781-2.668-1.953-2.668-.926 0-1.797.672-1.797 1.809 0 1.16.824 1.77 1.676 1.77.746 0 1.23-.376 1.383-.79h.027c-.004 1.316-.461 2.164-1.305 2.164-.664 0-1.008-.45-1.05-.82h-.684zm2.953-2.317c0 .696-.559 1.18-1.184 1.18-.601 0-1.144-.383-1.144-1.2 0-.823.582-1.21 1.168-1.21.633 0 1.16.398 1.16 1.23z"/>
+                        <path d="M3.5 0a.5.5 0 0 1 .5.5V1h8V.5a.5.5 0 0 1 1 0V1h1a2 2 0 0 1 2 2v11a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V3a2 2 0 0 1 2-2h1V.5a.5.5 0 0 1 .5-.5zM1 4v10a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V4H1z"/>
+                      </svg>
+                </div>
+                <h3>Online Courses</h3>                
+                <p>Boost your skills and career with our expert-led online courses. Our flexible, interactive curriculum offers industry-recognized certificates.</p>
+
+            </div>
+
+
+            <div class="cardT card-2">
+                <div class="icon-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-cast" viewBox="0 0 16 16">
+                        <path d="m7.646 9.354-3.792 3.792a.5.5 0 0 0 .353.854h7.586a.5.5 0 0 0 .354-.854L8.354 9.354a.5.5 0 0 0-.708 0z"/>
+                        <path d="M11.414 11H14.5a.5.5 0 0 0 .5-.5v-7a.5.5 0 0 0-.5-.5h-13a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 .5.5h3.086l-1 1H1.5A1.5 1.5 0 0 1 0 10.5v-7A1.5 1.5 0 0 1 1.5 2h13A1.5 1.5 0 0 1 16 3.5v7a1.5 1.5 0 0 1-1.5 1.5h-2.086l-1-1z"/>
+                      </svg>
+                </div>
+                <h3>Expert Tutors</h3>
+                <p>Get personalized coding instruction from our team of expert tutors. Our tutors have years of industry experience and a passion for teaching. </p>
+            </div>
+            <div class="cardT card-3">
+                <div class="icon-box">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-envelope-plus" viewBox="0 0 16 16">
+                        <path d="M2 2a2 2 0 0 0-2 2v8.01A2 2 0 0 0 2 14h5.5a.5.5 0 0 0 0-1H2a1 1 0 0 1-.966-.741l5.64-3.471L8 9.583l7-4.2V8.5a.5.5 0 0 0 1 0V4a2 2 0 0 0-2-2H2Zm3.708 6.208L1 11.105V5.383l4.708 2.825ZM1 4.217V4a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1v.217l-7 4.2-7-4.2Z"/>
+                        <path d="M16 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0Zm-3.5-2a.5.5 0 0 0-.5.5v1h-1a.5.5 0 0 0 0 1h1v1a.5.5 0 0 0 1 0v-1h1a.5.5 0 0 0 0-1h-1v-1a.5.5 0 0 0-.5-.5Z"/>
+                      </svg>
+                </div>
+                <h3>Effective Methods</h3>
+                <p>Learn to code using effective and proven methods. Our online coding academy offers a variety of learning techniques for you to stay updated.</p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Key Points Section Ended -->
+
+
+<!-- Courses Tab Started -->
+<div class="container py-5" id="startExploring">
+    <h1 class="border-start fw-bolder">Explore Our Courses</h1>
+    <p class="mb-5 grayClr">Our courses are carefully curated and taught by industry experts, who bring real-world experience and insights to the classroom. Whether you're a beginner just starting out or an experienced developer looking to expand your skill set, we have a course for you.</p>
+    <div class="m-4">
+        <ul class="nav nav-tabs " id="myTab">
+            <li class="nav-item">
+                <a href="#web-development" class="nav-link active" data-bs-toggle="tab">Web Development</a>
+            </li>
+            <li class="nav-item">
+                <a href="#c" class="nav-link" data-bs-toggle="tab">C Language</a>
+            </li>
+            <li class="nav-item">
+                <a href="#others" class="nav-link" data-bs-toggle="tab">Others</a>
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div class="tab-pane fade show active p-5 bg-white rounded-3" id="web-development">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card card_border shadow" style='background-color:#faf0d7; border:0px;''>
+                            <div>
+                              <i 
+                              class="fa-brands fa-html5 faicon"
+                              style="color:#fec938;background-color:#fbe7b2;"
+                              >
+              
+                              </i>
+                            </div>
+                            <div class="card-body px-4">
+                              <h5 class="card-title fw-bold h4">HTML 5</h5>
+                              <p class="card-text gray_clr px-3 grayClr" style="height: 120px; overflow: hidden;">This course is an introduction to HTML, the markup language used for creating web pages. You'll learn the basics of HTML syntax and structure, including how to create headings, paragraphs, lists, links, and images. You'll also learn how to use HTML to create tables, forms, and media elements such as videos and audio files. Throughout the course, you'll gain hands-on experience creating your own web pages and working with popular HTML editors and tools. By the end of the course, you'll have a strong foundation in HTML and be able to create professional-looking web pages for personal or professional use.</p>
+                              <a
+                              href="#" class="float-end"
+                              style='text-decoration:none; color:#fec938; font-weight: bold;'
+                              >
+                                Enroll Now
+                              </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card_border shadow" style='background-color:#b5cbf2a0; border:0px;''>
+                            <div>
+                              <i 
+                              class="fa-brands fa-css3-alt faicon"
+                              style="color:#4c83f2; background-color:#b5cbf2;"
+                              >
+              
+                              </i>
+                            </div>
+                            <div class="card-body px-4">
+                              <h5 class="card-title fw-bold h4">CSS 3</h5>
+                              <p class="card-text gray_clr px-3 text-center grayClr" style="height: 120px; overflow: hidden;">This course is an introduction to CSS, the language used for styling and layout in web development. You'll learn the basics of CSS syntax and selectors, including how to style text, colors, backgrounds, borders, and other common web page elements. You'll also learn how to use layout techniques such as floats and positioning, as well as responsive design concepts for adapting to different screen sizes. </p>
+                              <a
+                              href="#" class="float-end"
+                              style='text-decoration:none; color:#4c83f2; font-weight: bold;'
+                              >
+                                Enroll Now
+                              </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card_border shadow" style='background-color:#b8e2ca80; border:0px;''>
+                            <div>
+                              <i 
+                                class="fa-brands fa-square-js faicon"
+                                style="color:#4ebc86;background-color:#b8e2ca;"
+                              >
+              
+                              </i>
+                            </div>
+                            <div class="card-body px-4">
+                              <h5 class="card-title fw-bold h4">Java Script</h5>
+                              <p class="card-text gray_clr px-3" style="height: 120px; overflow: hidden;">This course is an introduction to HTML, the markup language used for creating web pages. You'll learn the basics of HTML syntax and structure, including how to create headings, paragraphs, lists, links, and images. You'll also learn how to use HTML to create tables, forms, and media elements such as videos and audio files. Throughout the course, you'll gain hands-on experience creating your own web pages and working with popular HTML editors and tools. By the end of the course, you'll have a strong foundation in HTML and be able to create professional-looking web pages for personal or professional use.</p>
+                              <a
+                              href="#" class="float-end"
+                              style='text-decoration:none; color:#4ebc86; font-weight: bold;'
+                              >
+                                Enroll Now
+                              </a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade p-4 rounded p-5 bg-white" id="c">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card card_border shadow" style='background-color:#84299927; border:0px;''>
+                            <div>
+                              <i 
+                              class="fa-solid fa-c faicon"
+                              style="color:#852999;background-color:#84299957;"
+                              >
+              
+                              </i>
+                            </div>
+                            <div class="card-body px-4">
+                              <h5 class="card-title fw-bold h4">C</h5>
+                              <p class="card-text gray_clr px-3 grayClr" style="height: 120px; overflow: hidden;">This course is an introduction to C, a popular programming language used for developing system software, games, embedded systems, and more. You'll learn the basics of C syntax and structure, including variables, data types, functions, loops, and conditional statements. You'll also learn how to work with arrays, pointers, and structures, as well as advanced concepts such as memory management, file I/O, and dynamic allocation. Throughout the course, you'll gain hands-on experience writing and debugging C code using popular integrated development environments (IDEs) and tools.</p>
+                              <a
+                              href="#" class="float-end"
+                              style='text-decoration:none; color:#852999; font-weight: bold;'
+                              >
+                                Enroll Now
+                              </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card_border shadow" style='background-color:#a1003634; border:0px;''>
+                            <div>
+                              <i 
+                              class="fa-solid fa-code faicon"
+                              style="color:#A10035; background-color:#a1003662;"
+                              >
+              
+                              </i>
+                            </div>
+                            <div class="card-body px-4">
+                              <h5 class="card-title fw-bold h4">C++</h5>
+                              <p class="card-text gray_clr px-3 text-center grayClr" style="height: 120px; overflow: hidden;">This course is an introduction to C++, a popular object-oriented programming language used for developing desktop applications, operating systems, games, and more. You'll learn the basics of C++ syntax and structure, including variables, data types, functions, loops, and conditional statements. You'll also learn how to work with arrays, pointers, and structures, as well as advanced concepts such as classes, templates, and inheritance. Throughout the course, you'll gain hands-on experience writing and debugging C++ code using popular integrated development environments (IDEs) and tools. By the end of the course, you'll have a strong foundation in C++ and be able to create efficient and effective programs for a wide range of applications.</p>
+                              <a
+                              href="#" class="float-end"
+                              style='text-decoration:none; color:#A10035; font-weight: bold;'
+                              >
+                                Enroll Now
+                              </a>
+                            </div>
+                          </div>
+                    </div>
+                    <div class="col">
+                        <div class="card card_border shadow" style='background-color:#1572a138; border:0px;''>
+                            <div>
+                              <i 
+                                class="fa-solid fa-code-fork faicon"
+                                style="color:#1572A1;background-color:#1572a15e;"
+                              >
+              
+                              </i>
+                            </div>
+                            <div class="card-body px-4">
+                              <h5 class="card-title fw-bold h4">C#</h5>
+                              <p class="card-text gray_clr px-3" style="height: 120px; overflow: hidden;">C# (pronounced "C sharp") is a modern, object-oriented programming language developed by Microsoft. It is widely used in the development of desktop applications, web applications, and games, and it's especially popular for developing applications on the Microsoft .NET platform.</p>
+                              <a
+                              href="#" class="float-end"
+                              style='text-decoration:none; color:#1572A1; font-weight: bold;'
+                              >
+                                Enroll Now
+                              </a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="tab-pane fade p-5 bg-white" id="others">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card card_border shadow" style='background-color:#bb371a2f; border:0px;''>
+                            <div>
+                              <i 
+                              class="fa-brands fa-github faicon"
+                              style="color:#BB371A;background-color:#bb371a62;"
+                              >
+              
+                              </i>
+                            </div>
+                            <div class="card-body px-4">
+                              <h5 class="card-title fw-bold h4">GitHub</h5>
+                              <p class="card-text gray_clr px-3 grayClr" style="height: 120px; overflow: hidden;">GitHub is a popular web-based hosting service that is used for version control and collaboration among software developers. A typical GitHub course will cover the basics of using GitHub for version control, managing code, collaborating with other developers, and integrating with other tools.</p>
+                              <a
+                              href="#" class="float-end"
+                              style='text-decoration:none; color:#BB371A; font-weight: bold;'
+                              >
+                                Enroll Now
+                              </a>
+                            </div>
+                          </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Courses Tab Ended -->
+
+<!-- News Letter Started -->
+<div class='container py-5'>
+    <div class="row">
+        <div 
+            class="col-md-6 div_left"
+            >
+                <h2 
+                class=''
+                style='font-size:45px;'>
+                    Learn how <font class='fw-bolder' style='color: #1aa3da'>Bits&Bytes</font><br/>
+                    can help you with<br/>
+                    your bright future.
+                    
+                </h2>
+
+
+                    <div class="input-group mb-3  mt-5 gmail_div">
+                        <input type="email" class="form-control" placeholder="Enter work email" aria-label="Recipient's username" aria-describedby="button-addon2" />
+                        <button class="btn btn-outline-secondary" style='background-color:#1aa3da; border:#1aa3da; color:white;' type="button" id="button-addon2">Get a Demo</button>
+                    </div>                
+                </div>
+
+            <div class="col-md-6 text-center img_section">
+                <img src="img/newsLetter.svg" class="w-75"/>
+            </div>
+        </div>
+</div>
+<!-- Newsletter Ended -->
+
+<!-- Footer Started -->
+<div class='container-fluid text-light py-5 footer' style='background-color:#212832'>
+    <div class='container'>
+    <div class='row'>
+        <div class='col-md-6 ps-5'>
+            <img 
+            class='mb-4' 
+            style="width: 100px;"
+            height="100px"
+            src="img/logo.png"
+            />
+            <h2 class='heading_txt'>Take  student experience <br/>to the next level </h2>
+        </div>
+
+
+        <div class='col-md-3 px-5'>
+            <h3 >Quick Links</h3>
+                <ul class='list1'>
+                <li><a href='index.html'><i class='fa fa-angle-right'></i> Home</a></li>
+                <li><a href='aboutus.html'><i class='fa fa-angle-right'></i> About Us</a></li>
+                <li><a href='#startExploring'><i class='fa fa-angle-right'></i> Courses</a></li>
+                <li><a href='contactus.html'><i class='fa fa-angle-right'></i> Contact Us</a></li>
+                </ul>
+        </div>
+
+
+        <div class='col-md-3 px-5'>
+                <h3>Courses</h3>
+                <ul class='list1'>
+                  <li><a href='index.html#startExploring'><i class='fa fa-angle-right'></i> Web Development</a></li>
+                  <li><a href='index.html#startExploring'><i class='fa fa-angle-right'></i> C Language</a></li>
+                  <li><a href='index.html#startExploring'><i class='fa fa-angle-right'></i> Others</a></li>
+              </ul>
+
+        </div>
+</div>
+    </div>
+</div>
+<!-- Footer Ended -->
+
+<div class="container-fluid bg-dark py-3">
+    <div class="text-center text-white">
+      <p class="h6">Developed By <a href="https://yasirresume.000webhostapp.com/" target="_blank">Yasir Nawaz</a></p>
+      <div class="social_nav">
+        <ul>
+          <li><a href="https://www.facebook.com/profile.php?id=100078564789139&mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook-square" target="_blank"></i></a></li>
+          <li><a href="https://twitter.com/YasirsThoughts" target="_blank"><i class="fa-brands fa-twitter-square" ></i></a></li>
+          <li><a href="https://instagram.com/yasirnawazzz" target="_blank"><i class="fa-brands fa-instagram-square" ></i></a></li>
+          <li><a href="https://github.com/yasir2002" target="_blank"><i class="fa-brands fa-github-square" ></i></a></li>
+          <li><a href="https://www.linkedin.com/in/yasirnawaz24/" target="_blank" ><i class="fa-brands fa-linkedin-square"></i></a></li>
+        </ul>
+      </div>
+    </div>
+</div>
+
+
+
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/63f7298831ebfa0fe7eedb81/1gpunkg71';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+</body>
+</html>

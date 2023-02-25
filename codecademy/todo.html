@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Bootstrap5.0/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <div class="w-25">
+            <input type="text" class="form-control" id="taskInput" placeholder="Enter your todo here">
+            <button class="btn btn-info" onclick="addTask()">Add Task</button>
+
+            <ul id="taskList">
+            </ul>
+        </div>
+    </div>
+
+
+</body>
+</html>
+
+
+
+<script>
+
+itemsArray = [];
+
+function addTask() {
+    let taskInput = document.getElementById("taskInput").value;
+
+    itemsArray.push(taskInput)
+
+    document.getElementById('taskInput').value = ''
+
+    let temp = '';
+    
+    itemsArray.map ((element, index) => {
+        temp += '<li class="mb-4">'+ element + "<button class='btn btn-danger float-end' onClick='Del("+index+")' >Delete</button>"+'</li>';
+            
+        function Del(index){
+                alert(hello)
+            }
+        
+
+    });
+    document.getElementById('taskList').innerHTML = temp;
+
+}
+
+
+</script>
