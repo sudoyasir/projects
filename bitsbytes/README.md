@@ -11,7 +11,7 @@ Bits&Bytes Academy's online website is a sleek and modern platform that showcase
 
 
 
-![Screenshoots](https://raw.githubusercontent.com/yasir2002/portfolio/main/public/md-image.png)
+![Screenshoots](https://raw.githubusercontent.com/yasir2002/projects/master/bitsbytes/img/asdfuiahlefnasiudfaafafeiwef98w7rqwoefiua.png)
 
 ## Sections
 * **Homepage:** The homepage of Bits&Bytes Academy's online website is designed to immediately capture the attention of visitors and provide an introduction to the academy's offerings. The page features a dynamic banner image with a call-to-action button that invites visitors to explore the academy's courses. Below the banner image, the homepage showcases the academy's top courses with an image, title, and brief description, providing visitors with a quick overview of the most popular offerings.
