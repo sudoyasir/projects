@@ -123,6 +123,51 @@ body{
 .video-area{
     background-image: url('../img/video-area-bg.png');
 }
+.other-feature-item {
+    padding: 50px 40px;
+    background: #f2f3f7;
+    margin-bottom: 30px;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.mt--160 {
+    margin-top: -160px;
+}
+.mt--260 {
+    margin-top: -260px;
+}
+.section-title {
+    padding-bottom: 75px;
+}
+.section-title p{
+    max-width: 300px !important;
+}
+.other-feature-item i {
+    font-size: 36px;
+    color: #222222;
+    -webkit-transition: all 0.3s ease 0s;
+    -moz-transition: all 0.3s ease 0s;
+    -o-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+.other-feature-item h4 {
+    margin-top: 30px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.other-feature-item:hover {
+    background: #fff;
+    box-shadow: 0px 10px 30px 0px rgb(0 0 0 / 8%);
+    cursor: pointer;
+}
+.other-feature-item:hover i {
+    color: #7c32ff;
+}
+.mt-6{
+    margin: 7rem auto !important;
+}
 
 
 
